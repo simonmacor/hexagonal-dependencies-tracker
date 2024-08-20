@@ -89,7 +89,7 @@ To run tests on the script, make sure you have unittest available. You can execu
 
 ``` bash
 
-python -m unittest test_verify_architecture.py
+python -m unittest tests/test_verify_architecture.py
 ```
 
 ## Contributing
