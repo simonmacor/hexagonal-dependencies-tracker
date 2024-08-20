@@ -1,0 +1,26 @@
+layers:
+  domain:
+    - "my_project/domain"
+  application:
+    - "my_project/application"
+  adapters:
+    - "my_project/adapters"
+    - "my_project/infrastructure"
+  ui:
+    - "my_project/ui"
+    - "my_project/web"
+
+dependencies:
+  domain: []
+  application:
+    - "domain"
+  adapters:
+    - "application"
+    - "domain"
+  ui:
+    - "application"
+
+allowed_violations:
+  - module: "os"
+    file: "my_project/domain/special_case.py"
+    reason: "os module is allowed here due to specific system interactions."
