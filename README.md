@@ -1,3 +1,4 @@
+[![CI](https://github.com/simonmacor/py_hexagonal_dependencies_tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/simonmacor/py_hexagonal_dependencies_tracker/actions/workflows/ci.yml)
 # Python Hexagonal Architecture Compliance Checker
 ## Overview
 
