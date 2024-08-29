@@ -17,8 +17,8 @@ You can install the Hexagonal Architecture Compliance Checker as a package using
 
 ``` bash
 
-git clone <repository-url>
-cd <repository-directory>
+git clone git@github.com:simonmacor/py_hexagonal_dependencies_tracker.git
+cd py_hexagonal_dependencies_tracker
 ```
 
 2. Install the Package:
